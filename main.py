@@ -35,4 +35,4 @@ tools = [
 
 # Use the tool to generate a pyramid with 5 levels
 response = groq.generate("Please create a pyramid with 5 levels", tools=tools)
-print("Response:", response)
+print("\n\n\nResponse:\n", response)
